@@ -1,0 +1,21 @@
+<strings>
+    <string id="AppName">Call Controls</string>
+
+    <string id="prompt">Click the menu button</string>
+
+    <string id="menu_label_1">Item 1</string>
+    <string id="menu_label_2">Item 2</string>
+    
+    <string id="get_last">GET_LAST</string>
+    <string id="action_hangup">ACT_HANGUP</string>
+    <string id="action_mute">ACT_MUTE</string>
+    <string id="action_audsrc">ACT_AUDSRC</string>
+    <string id="action_volup">ACT_VOLUP</string>
+    <string id="action_voldn">ACT_VOLDN</string>
+    
+    <string id="state_call">CALL</string>
+    <string id="state_hangup">HANGUP</string>
+    <string id="state_mute">MUTE</string>
+    
+    <string id="const_seperator">|</string>
+</strings>

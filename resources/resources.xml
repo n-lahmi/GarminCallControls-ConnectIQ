@@ -1,0 +1,13 @@
+<resources>
+    <bitmap id="LauncherIcon" filename="drawables/icon_.png" />
+    
+    <bitmap id="IconHangup" filename="drawables/baseline_call_end_white_36.png" />
+    <bitmap id="IconUnmute" filename="drawables/baseline_mic_white_18.png" />
+    <bitmap id="IconMute" filename="drawables/baseline_mic_off_white_18.png" />
+    <bitmap id="IconSpeaker" filename="drawables/baseline_phone_in_talk_white_18.png" />
+    <bitmap id="IconHeadphones" filename="drawables/baseline_headset_white_18.png" />
+    <bitmap id="IconBluetooth" filename="drawables/baseline_phone_bluetooth_speaker_white_18.png" />
+    <bitmap id="IconPhone" filename="drawables/baseline_phone_white_18.png" />
+    <bitmap id="IconVolUp" filename="drawables/baseline_volume_up_white_18.png" />
+    <bitmap id="IconVolDn" filename="drawables/baseline_volume_down_white_18.png" />
+</resources>

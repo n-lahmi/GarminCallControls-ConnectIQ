@@ -1,1 +1,6 @@
 project.manifest = manifest.xml
+
+#round-240x240.resourcePath = resources-round-240x240
+#round-390x390.resourcePath = $(base.resourcePath);resources-round-390x390
+#semiround.resourcePath = $(base.resourcePath);resource-semiround
+#rectangle.resourcePath = $(base.resourcePath);resource-rectangle

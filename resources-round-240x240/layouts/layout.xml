@@ -1,0 +1,42 @@
+<layout id="MainLayout">
+	<!--
+	<bitmap id="id_monkey" x="center" y="center" filename="../drawables/monkey.png" />
+    <label x="center" y="center" text="@Strings.prompt" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER" />
+    -->
+
+    <label id="caller" x="center" y="15%" text="Caller Name" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER" />
+    <label id="duration" x="center" y="30%" text="Call Time" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER" font="Graphics.FONT_XTINY" />
+    
+    
+    <!-- <bitmap id="btn_endcall" x="center" y="61%" filename="../drawables/baseline_call_end_white_48.png" />-->
+    
+    <button x="center" y="(dc.getHeight()*0.6) - 54" width="108" height="108" behavior="hangUp" >
+	    <state id="stateDefault" bitmap="@Drawables.IconHangup"></state>
+		<state id="stateHighlighted" bitmap="@Drawables.IconHangup"></state>
+	</button>
+	
+	<button x="(dc.getWidth()*0.15) - 27" y="(dc.getHeight()*0.6) - 27" width="54" height="54" behavior="toggleMute">
+	    <state id="stateDefault" bitmap="@Drawables.IconMute"></state>
+		<state id="stateHighlighted" bitmap="@Drawables.IconMute"></state>
+	</button>
+	
+	<button x="(dc.getWidth()*0.85) - 27" y="(dc.getHeight()*0.6) - 27" width="54" height="54" behavior="setAudioSource" >
+	    <state id="stateDefault" bitmap="@Drawables.IconPhone"></state>
+		<state id="stateHighlighted" bitmap="@Drawables.IconPhone"></state>
+	</button>
+	
+	<button x="(dc.getWidth()*0.30) - 27" y="(dc.getHeight()*0.81) - 27" width="54" height="54" behavior="volumeDown" >
+	    <state id="stateDefault" bitmap="@Drawables.IconVolDn"></state>
+		<state id="stateHighlighted" bitmap="@Drawables.IconVolDn"></state>
+	</button>
+	
+	<button x="(dc.getWidth()*0.70) - 27" y="(dc.getHeight()*0.81) - 27" width="54" height="54" behavior="volumeUp" >
+	    <state id="stateDefault" bitmap="@Drawables.IconVolUp"></state>
+		<state id="stateHighlighted" bitmap="@Drawables.IconVolUp"></state>
+	</button>
+	
+    <!--<label x="left" y="61%" text="Speaker" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER" font="Graphics.FONT_XTINY" />
+     <label x="center" y="60%" text="Hang Up" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER" font="Graphics.FONT_TINY" /> 
+    <label x="right" y="61%" text="Mute" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER" font="Graphics.FONT_XTINY" />-->
+    
+</layout>
